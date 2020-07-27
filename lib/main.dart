@@ -1,4 +1,4 @@
-import 'file:///C:/Users/piyus/AndroidStudioProjects/attral_tipper_amc/lib/Screens/welcomepage/welcome_page.dart';
+import 'package:attraltipperamc/Screens/welcomepage/welcome_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
        primarySwatch: Colors.blue,

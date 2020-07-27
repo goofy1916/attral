@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:attraltipperamc/Screens/loginpage/login_page.dart';
 import 'package:attraltipperamc/contants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +22,9 @@ class ButtonBuilder extends StatelessWidget {
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(10),
                       bottomLeft: Radius.circular(10))),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute( builder: (context) => LoginPage()));
+              },
               color: Colors.black,
               child: Text(
                 "Login",
