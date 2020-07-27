@@ -1,4 +1,4 @@
-import 'package:attraltipperamc/Screens/welcome_page.dart';
+import 'file:///C:/Users/piyus/AndroidStudioProjects/attral_tipper_amc/lib/Screens/welcomepage/welcome_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
