@@ -1,5 +1,5 @@
 import 'package:attraltipperamc/Screens/loginpage/mpinsection.dart';
-import 'package:attraltipperamc/contants.dart';
+import 'package:attraltipperamc/constants.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -12,13 +12,15 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-          body: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              header(name: "Sundar Pichai"),
-              mPINSection(),
-//              fingerprintSection(),
-            ],
+        backgroundColor: Colors.white,
+          body: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                header(name: "Sundar Pichai"),
+                mPINSection(),
+              ],
+            ),
           )),
     );
   }
@@ -35,7 +37,7 @@ class _LoginPageState extends State<LoginPage> {
         children: <Widget>[
           Text(
             "Welcome back,",
-            style: smallBlackText,
+            style: smallBlackText.copyWith(color: Colors.grey[500]),
           ),
           SizedBox(
             height: 10,

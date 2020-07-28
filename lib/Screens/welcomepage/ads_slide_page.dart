@@ -1,4 +1,4 @@
-import 'package:attraltipperamc/contants.dart';
+import 'package:attraltipperamc/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:page_view_indicators/circle_page_indicator.dart';
 
@@ -21,12 +21,12 @@ class AdsSlidePage extends StatelessWidget {
                   height: 300,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
-                    color: Colors.black,
+                    color: Colors.grey[300],
                   ),
                   child: Center(
                     child: Text(
                       "Ads Slide Page",
-                      style: smallWhiteText,
+                      style: smallBlackText,
                     ),
                   ),
                 ),

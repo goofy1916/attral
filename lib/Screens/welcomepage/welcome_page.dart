@@ -1,5 +1,5 @@
 import 'package:attraltipperamc/Screens/welcomepage/button_builder.dart';
-import 'package:attraltipperamc/contants.dart';
+import 'package:attraltipperamc/constants.dart';
 import 'file:///C:/Users/piyus/AndroidStudioProjects/attral_tipper_amc/lib/Screens/welcomepage/ads_slide_page.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +15,7 @@ class _WelcomePageState extends State<WelcomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.white,
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
@@ -43,7 +44,7 @@ class _WelcomePageState extends State<WelcomePage> {
         children: <Widget>[
           Text(
             "Welcome to",
-            style: smallBlackText,
+            style: smallBlackText.copyWith(color: Colors.grey[500]),
           ),
           SizedBox(
             height: 10,

@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:attraltipperamc/Screens/loginpage/login_page.dart';
-import 'package:attraltipperamc/contants.dart';
+import 'package:attraltipperamc/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -25,10 +25,10 @@ class ButtonBuilder extends StatelessWidget {
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute( builder: (context) => LoginPage()));
               },
-              color: Colors.black,
+              color: Colors.grey[300],
               child: Text(
                 "Login",
-                style: smallWhiteText,
+                style: smallBlackText,
               ),
             ),
             SizedBox(
@@ -42,10 +42,10 @@ class ButtonBuilder extends StatelessWidget {
                       topRight: Radius.circular(10),
                       bottomRight: Radius.circular(10))),
               onPressed: () {},
-              color: CupertinoColors.black,
+              color: Colors.grey[300],
               child: Text(
                 "Register",
-                style: smallWhiteText,
+                style: smallBlackText,
               ),
             )
           ],
@@ -57,7 +57,7 @@ class ButtonBuilder extends StatelessWidget {
           onPressed: () {},
           child: Text(
             "Have a Query? Contact Us",
-            style: mediumText,
+            style: smallBlackText,
           ),
         ),
       ],
