@@ -1,3 +1,5 @@
+import 'package:attraltipperamc/Screens/homepage/home_page.dart';
+import 'package:attraltipperamc/Screens/truckdetails/truck_details.dart';
 import 'package:attraltipperamc/Screens/welcomepage/welcome_page.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
        primarySwatch: Colors.blue,
        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: WelcomePage(),
+      home: HomePage(),
     );
   }
 }

@@ -117,25 +117,4 @@ class _HomePageState extends State<HomePage> {
       ),
     );
   }
-
-  header(context) {
-    return Container(
-      width: MediaQuery.of(context).size.width,
-      padding: EdgeInsets.all(16.0),
-      decoration: decoration,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Text(
-            "TIPPER CARE",
-            style: largeText.copyWith(fontWeight: FontWeight.w600),
-          ),
-          Text(
-            "AMC",
-            style: mediumText.copyWith(fontWeight: FontWeight.bold),
-          )
-        ],
-      ),
-    );
-  }
 }
